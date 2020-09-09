@@ -1,0 +1,11 @@
+The product shall produce search results in an acceptable time.;The search results shall be returned no later 30 seconds.;1
+The search results shall be returned no later 30 seconds.;The search for recycled parts shall take no longer than 15 seconds.;1
+The search for recycled parts shall take no longer than 15 seconds.;The recycled parts shall be returned to the user within 10 seconds.;1
+The recycled parts shall be returned to the user within 10 seconds.;The search results shall be returned in under 15 seconds.;1
+The search results shall be returned in under 15 seconds.;The search for the preferred repair facility shall take no longer than 8 seconds.;1
+90% of tasks shall complete within 5 seconds.;98% of tasks shall complete within 8 seconds.;1
+The system shall achieve 95% up time.;The system shall achieve 99.5% up time.;2
+The product shall be available for use 24 hours per day 365 days per year.;The system will be available 99% of the time during the first six months of operation.;2
+The product shall be able to support multiple remote users.;The product shall be able support 1000 simultaneous users.;3
+Only authorized users shall have access to clinical site information.;Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.;4
+Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.;Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.;4

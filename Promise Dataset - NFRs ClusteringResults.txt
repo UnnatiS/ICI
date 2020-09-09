@@ -1,0 +1,122 @@
+The product shall produce search results in an acceptable time.	,	1
+The search results shall be returned no later 30 seconds.	,	1
+The search for recycled parts shall take no longer than 15 seconds.	,	1
+The recycled parts shall be returned to the user within 10 seconds.	,	1
+The search results shall be returned in under 15 seconds.	,	1
+The search for the preferred repair facility shall take no longer than 8 seconds.	,	1
+The product shall generate a CMA report in an acceptable time.	,	1
+The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.	,	1
+The product shall synchronize contacts and appointments in an acceptable time.	,	1
+The preferred repair facility is returned within 8 seconds	,	1
+The audit report shall be returned within 10 seconds.	,	1
+The preferred repair facility ratings shall be saved within 5 seconds.	,	1
+The save shall occur within 5 seconds.	,	1
+The response shall be fast enough to avoid interrupting the user’s flow of thought.	,	1
+90% of tasks shall complete within 5 seconds.	,	1
+98% of tasks shall complete within 8 seconds.	,	1
+The System shall allow for a minimum of 6 users to work at the same time.	,	1
+Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.	,	1
+Customer shall be able to check the status of their prepaid card by entering in the PIN number in under 5 seconds.	,	1
+Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.	,	1
+System shall let customers register on the website as a "pay as you go" user in under 5 minutes.	,	1
+System shall let customers register on the website as a "unlimited movie subscriber" user in under 10 minutes.	,	1
+System shall let existing customers log into the website with their email address and password in under 5 seconds.	,	1
+System shall let customers cancel their account process shall take no longer than 2 minutes.	,	1
+Database will mark the account as inactive and user will not be able to log into the website.	,	1
+System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.	,	1
+System shall let administrator add/remove movies on the website in under 5 minutes.  Entered movie information will be stored in the database and will now be available on the website.	,	1
+System shall let the administrator add/remove categories on the website in under 5 minutes.	,	1
+System shall let Izogn Manager access sales and usage statistics in under 2 minutes.	,	1
+System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.	,	1
+Any interface between a user and the automated system shall have a maximum response time of 5 seconds unless noted by an exception below.	,	1
+When purchasing a streaming movie or pre-paid card via credit card the processing time should have a maximum response time of 15 seconds.	,	1
+When streaming a movie the buffering time should take no longer than 10 seconds (plus any latency on the user’s connection.)	,	1
+While streaming a movie buffering should only occur if there is latency in the user’s connection.	,	1
+Izogn Administrator must be able to update the category listings on the website within 2 minutes.	,	1
+Izogn Administrator must be able to add new products to the website within 2 minutes.	,	1
+The website will provide a help section with answers and solutions to common problems.	,	1
+The product shall be available for use 24 hours per day 365 days per year.	,	2
+Out of 1000 accesses to the system the system is available 999 times.	,	2
+The system shall achieve 95% up time.	,	2
+The system will be available 99% of the time during the first six months of operation.	,	2
+The product shall adhere to the corporate online availability schedule.	,	2
+The application is brought down only within 98% of the scheduled outages per the availability schedule.	,	2
+The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.	,	2
+The product shall be able to handle up to 1500 simultaneous users.	,	2
+The system shall perform with 1500 users as a time.	,	2
+The system shall achieve 99.5% up time.	,	2
+All movies shall be streamed on demand at any time of the day.	,	2
+The product shall be able to support multiple remote users.	,	3
+The product shall be able support 1000 simultaneous users.	,	3
+System shall be able to handle all of the user requests/usage during business hours.	,	3
+The system shall cater to 10 simultaneous users from 9am to 5pm.	,	3
+The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.	,	3
+The product shall be capable of handling the existing 1000 users.	,	3
+This number is expected to grow 5 times within the next year.	,	3
+The average number of recycled parts records per day shall be 50 000.	,	3
+The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.	,	3
+The product shall be capable of handling up to 1 000 concurrent requests.	,	3
+This number will increase to 2 000 by Release 2.	,	3
+The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.	,	3
+The product shall be able to process 10 000 transactions per hour within two years of its launch.	,	3
+The product shall be expected to operate for at least 5 years for each customer installation.	,	3
+The website shall be available for use 24 hours per day 365 days per year.	,	3
+The streaming server will support 50 simultaneous streaming connections.	,	3
+The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.	,	3
+The server will support a maximum of 1 000 simultaneous users.	,	3
+The website shall be capable of supporting 100 000 customers.	,	3
+Only registered realtors shall be able to access the system.	,	4
+Every user of the system shall be authenticated and authorized.	,	4
+The product shall prevent its data from incorrect data being introduced.	,	4
+Only authorized users shall have access to clinical site information.	,	4
+Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.	,	4
+Only authorized users shall have access to students’ personal information.	,	4
+Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students’ personal information.	,	4
+Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.	,	4
+Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.	,	4
+The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.	,	4
+The system shall protect private information in accordance with the organizations information policy.	,	4
+The system shall be built such that it is as secure as possible from malicious interference.	,	4
+Only users with Update access must be able to initiate dispute requests.	,	4
+The system shall use the organization’s standard virus protection software to help monitor threats to itself.	,	4
+The product shall prevent its data from incorrect data being introduced.	,	4
+The Disputes application shall ensure that only authorized users are allowed to logon to the application.	,	4
+All authorized users once authenticated must be able to logon to the Disputes System.	,	4
+The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user’s access level.  The report will be reviewed for auditing purposes.	,	4
+All additions of new users and modifications to user’s access shall be recorded on the User Report.	,	4
+If a user account is revoked it can only be re-instantiated by the System Administrator.	,	4
+Only the System Administrator shall be able to reset a revoked user logon account.	,	4
+The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.	,	4
+All updates to data files or database must be initiated from the Disputes System.	,	4
+Only adjusters can request recycled parts audit reports.	,	4
+No users without an adjuster role shall request recycled parts audits.	,	4
+Only adjusters with a supervisor role can update preferred repair facility ratings.	,	4
+Users without the supervisor role cannot access the repair facility ratings.	,	4
+Only collision estimators shall search for recycled parts.	,	4
+Users without the collision estimator role shall not have access to the search for recycled parts.	,	4
+Only valid data shall be entered into the system.  No invalid data shall be entered into the system.	,	4
+One insurance company shall not be able to view another insurance company’s claim data.	,	4
+The product shall free of computer viruses.	,	4
+The system shall prevent malicious attacks including denial of service.	,	4
+The system shall be intuitive and self-explanatory.	,	5
+The product shall be easy for a realtor to learn.	,	5
+The product shall ensure that it can only be accessed by authorized users.	,	5
+The product will be able to distinguish between authorized and unauthorized users in all access attempts.	,	5
+The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.	,	5
+The product shall allow the user to select a chosen language from one of the target market countries.	,	5
+The product shall allow for customization of start page and views preferences.	,	5
+An employee will be able to successfully use the product within a few minutes.	,	5
+After informally navigating the product for less than 15 minutes users shall be able to successfully setup meetings and reserve conference rooms.	,	5
+The product shall use a standard navigation menu familiar to most web users.	,	5
+The product shall allow for intuitive searching of available conference rooms.	,	5
+The product shall conform to the Americans with Disabilities Act.	,	5
+The product should be able to be used by 90% of novice users on the Internet.	,	5
+Users should only have to navigate through a maximum of 4 pages to create an account with the website.	,	5
+Users should be able to access their streaming movies in under 2 clicks after logging into the website.	,	5
+An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.	,	5
+An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.	,	5
+The product shall retain the customer’s buying preferences and information.	,	5
+The product shall be easy for customers with novice skills on the Internet to purchase and watch streaming movies.	,	5
+Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.	,	5
+The product shall use symbols and words that are naturally understandable by users familiar with websites.	,	5
+The website will use standard Internet conventions when interacting with the user.	,	5
