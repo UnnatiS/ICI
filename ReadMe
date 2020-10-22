@@ -1,0 +1,25 @@
+In the Java programming language, the proposed appraoch is implemented. The Stanford parser is used in this approach to conduct lexical-syntactic analysis (such as POS tagging, stemming) and WordNet is used to evaluate awareness of the meaning. 
+The tests were carried out on an 8.00 GB RAM Intel (R) Core (TM) i5 CPU. Interfaces are also given (Interface ICI.zip). Soon the tool will be released.........
+
+Supported files: 
+
+1.Input_Requirements.txt: 
+Format: Natural Language Requirements 
+This file contains all natural language requirements for a specific domain.This file is an input to the preprocessing module.
+
+2.NFRs_ClusteringResutls.txt: 
+Format: Natural Language Requirement; Cluster Number  
+This file includes the clustering results of NFRs. The first column is a requirement, and the second column is a group number based on an agglomerative clustering algorithm and semantic similarity.
+
+3.Quality_OntologyISO9126.owl:
+Format: Web Ontology Language 
+This file is the partial quality ontology based on the ISO / IEC 9126 quality standard and developed by the Protege tool.
+
+4.Intra-ConflictsResults.txt : 
+Format : Requirements ; Conflict Number 
+This file provides partial intra-conflict outcomes identified from Input Requirements.txt. 
+Here, the first column is a requirement and the second column is a number-the requirements conflict with which one is listed.
+For example, 
+The recycled parts shall be returned to the user within 10 seconds.;The search results shall be returned in under 15 seconds.; 1
+
+
