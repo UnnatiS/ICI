@@ -31,5 +31,7 @@ This file provides partial intra-conflict outcomes identified from Input Require
 Here, the first column is a requirement and the second column is a number-the requirements conflict with which one is listed.
 For example, 
 The recycled parts shall be returned to the user within 10 seconds.;The search results shall be returned in under 15 seconds.; 1
-
-
+intranfr.owl
+Format: Web Ontology Language 
+Ontological representation of Intra-conflciting NFRs
+If you have any research questions or need a demo, please send an email to intraconflictnfrdemo@gmail.com
