@@ -15,8 +15,7 @@ opennlp-tools-1.6.0.jar
 org.apache.commons.io.jar
 org.springframework.beans.jar
 ws4j-1.0.1.jar
-To start the program in Netbeans, you'll need to set the classpath, path for Wordnet and intermideiate files. Curretnly the first version of the project is released. The second version of the project is under maintainence and hence will be release soon..
-Interfaces are also given (Interface ICI.zip).
+To start the program in Netbeans, you'll need to set the classpath, path for Wordnet and intermideiate files. Interfaces are also given (Interface ICI.zip).
 Input file: 
 Input_Requirements.txt: 
 Format: Natural Language Requirements (extract requirements from the document as single requirement per line - input file format is restricted to text file only as of now)
