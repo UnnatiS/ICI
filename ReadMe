@@ -1,21 +1,32 @@
-In the Java programming language, the proposed appraoch is implemented. The Stanford parser is used in this approach to conduct lexical-syntactic analysis (such as POS tagging, stemming) and WordNet is used to evaluate awareness of the meaning. 
-The tests were carried out on an 8.00 GB RAM Intel (R) Core (TM) i5 CPU. Interfaces are also given (Interface ICI.zip). Soon the tool will be released.........
-
-Supported files: 
-
-1.Input_Requirements.txt: 
-Format: Natural Language Requirements 
+In the Java programming language, the proposed approach is implemented. The tests were carried out on a 12.00 GB RAM Intel (R) Core (TM) i5 CPU. 
+The project requires : 
+1.Netbans (version 8.1) to be available - https://netbeans.org/community/releases/81/ or https://netbeans.org/images_www/v6/download/community/8.2 
+2. WordNetDictionary to be available(version 3.1) - https://wordnet.princeton.edu/download/current-version/
+3. Stanford parser to be available (version 4) - https://nlp.stanford.edu/software/lex-parser.shtml#Download
+4. protege tool to be available (version 4.3)- https://protege.stanford.edu/download/protege/4.3/installanywhere/Web_Installers/ 
+The project requires the following Jar files:
+collections15-4.01.jar
+com.ibm.icu_3.4.4.1.jar
+commons-lang-2.5.jar
+edu.mit.jwi_2.4.0.jar
+Jama-1.0.2.jar
+kd.jar
+opennlp-tools-1.6.0.jar 
+org.apache.commons.io.jar
+org.springframework.beans.jar
+ws4j-1.0.1.jar
+To start the program in Netbeans, you'll need to set the classpath, path for Wordnet and intermideiate files. Curretnly the first version of the project is released. The second version of the project is under maintainence and hence will be release soon..
+Interfaces are also given (Interface ICI.zip).
+Input file: 
+Input_Requirements.txt: 
+Format: Natural Language Requirements (extract requirements from the document as single requirement per line - input file format is restricted to text file only as of now)
 This file contains all natural language requirements for a specific domain.This file is an input to the preprocessing module.
-
-2.NFRs_ClusteringResutls.txt: 
-Format: Natural Language Requirement; Cluster Number  
-This file includes the clustering results of NFRs. The first column is a requirement, and the second column is a group number based on an agglomerative clustering algorithm and semantic similarity.
-
-3.Quality_OntologyISO9126.owl:
+Intermediate Outcome: 
+outTfIdfVec.txt; wup.txt; tfidfsim.txt; lsi.txt; agloOutClustering.txt; NFRs_ClusteringResutls.txt (Format: Natural Language Requirement; Cluster Number - This file includes the clustering results of NFRs. The first column is a requirement, and the second column is a group number based on an agglomerative clustering algorithm and semantic similarity.)  
+Quality_OntologyISO9126.owl:
 Format: Web Ontology Language 
 This file is the partial quality ontology based on the ISO / IEC 9126 quality standard and developed by the Protege tool.
-
-4.Intra-ConflictsResults.txt : 
+Intra-ConflictsResults.txt : 
 Format : Requirements ; Conflict Number 
 This file provides partial intra-conflict outcomes identified from Input Requirements.txt. 
 Here, the first column is a requirement and the second column is a number-the requirements conflict with which one is listed.
