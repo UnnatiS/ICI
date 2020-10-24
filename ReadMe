@@ -1,5 +1,5 @@
 In the Java programming language, the proposed approach is implemented. The tests were carried out on a 12.00 GB RAM Intel (R) Core (TM) i5 CPU. 
-The project requires : 
+We used following to create the project : 
 1.Netbans (version 8.1) to be available - https://netbeans.org/community/releases/81/ or https://netbeans.org/images_www/v6/download/community/8.2 
 2. WordNetDictionary to be available(version 3.1) - https://wordnet.princeton.edu/download/current-version/
 3. Stanford parser to be available (version 4) - https://nlp.stanford.edu/software/lex-parser.shtml#Download
@@ -15,11 +15,11 @@ opennlp-tools-1.6.0.jar
 org.apache.commons.io.jar
 org.springframework.beans.jar
 ws4j-1.0.1.jar
-To start the program in Netbeans, you'll need to set the classpath, path for Wordnet and intermideiate files. Interfaces are also given (Interface ICI.zip).
-Input file: 
-Input_Requirements.txt: 
+Yo can run the Jar file with command "java  -jar filename.jar"
+When application start running  user first need to provide input file which must contain input as following:
 Format: Natural Language Requirements (extract requirements from the document as single requirement per line - input file format is restricted to text file only as of now)
 This file contains all natural language requirements for a specific domain.This file is an input to the preprocessing module.
+Note: we have provided sample input_requirements.txt to test. Also, interfaces are provided. 
 Intermediate Outcome: 
 outTfIdfVec.txt; wup.txt; tfidfsim.txt; lsi.txt; agloOutClustering.txt; NFRs_ClusteringResutls.txt (Format: Natural Language Requirement; Cluster Number - This file includes the clustering results of NFRs. The first column is a requirement, and the second column is a group number based on an agglomerative clustering algorithm and semantic similarity.)  
 Quality_OntologyISO9126.owl:
@@ -27,11 +27,11 @@ Format: Web Ontology Language
 This file is the partial quality ontology based on the ISO / IEC 9126 quality standard and developed by the Protege tool.
 Intra-ConflictsResults.txt : 
 Format : Requirements ; Conflict Number 
-This file provides partial intra-conflict outcomes identified from Input Requirements.txt. 
+This file provides partial intra-conflict outcomes identified from Input Requirements file provided by user . 
 Here, the first column is a requirement and the second column is a number-the requirements conflict with which one is listed.
 For example, 
 The recycled parts shall be returned to the user within 10 seconds.;The search results shall be returned in under 15 seconds.; 1
 intranfr.owl
 Format: Web Ontology Language 
 Ontological representation of Intra-conflciting NFRs
-If you have any research questions or need a demo, please send an email to intraconflictnfrdemo@gmail.com
+If you have any queryies, please send an email to intraconflictnfrdemo@gmail.com
