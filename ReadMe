@@ -1,6 +1,17 @@
+INTRODUCTION
 In the Java programming language, the proposed approach is implemented. The tests were carried out on a 12.00 GB RAM Intel (R) Core (TM) i5 CPU. 
+LIST OF DATA FILES
+1	Crime & Criminal Tracking Network And Systems
+2	X-38 Fault-Tolerant System Services
+3	The Dallas / Ft. Worth Regional Center-To-Center Communications Network
+4	Tactical Control System (TCS)
+5	e-Procurement
+6 PROMISE 
+7 input_Requirements
+8 Intermediate outcome
+LIST OF PROCESSING TOOLS
 We used following to create the project : 
-1.Netbans (version 8.1) to be available - https://netbeans.org/community/releases/81/ or https://netbeans.org/images_www/v6/download/community/8.2 
+1. Netbans (version 8.1) to be available - https://netbeans.org/community/releases/81/ or https://netbeans.org/images_www/v6/download/community/8.2 
 2. WordNetDictionary to be available(version 3.1) - https://wordnet.princeton.edu/download/current-version/
 3. Stanford parser to be available (version 4) - https://nlp.stanford.edu/software/lex-parser.shtml#Download
 4. protege tool to be available (version 4.3)- https://protege.stanford.edu/download/protege/4.3/installanywhere/Web_Installers/ 
@@ -15,7 +26,8 @@ opennlp-tools-1.6.0.jar
 org.apache.commons.io.jar
 org.springframework.beans.jar
 ws4j-1.0.1.jar
-Yo can run the Jar file with command "java  -jar filename.jar"
+HOW TO USE PROCESSING TOOLS
+You can run the Jar file with command "java  -jar filename.jar"
 When application start running  user first need to provide input file which must contain input as following:
 Format: Natural Language Requirements (extract requirements from the document as single requirement per line - input file format is restricted to text file only as of now)
 This file contains all natural language requirements for a specific domain.This file is an input to the preprocessing module.
@@ -34,4 +46,5 @@ The recycled parts shall be returned to the user within 10 seconds.;The search r
 intranfr.owl
 Format: Web Ontology Language 
 Ontological representation of Intra-conflciting NFRs
-If you have any queryies, please send an email to intraconflictnfrdemo@gmail.com
+QUERY
+If you have any query, please send an email to intraconflictnfrdemo@gmail.com
