@@ -1,6 +1,6 @@
 ===========================================INTRODUCTION======================================================
 In the Java programming language, the proposed approach is implemented. The tests were carried out on a 12.00 GB RAM Intel (R) Core (TM) i5 CPU. 
-======================================================LIST OF DATA FILES======================================================
+===========================================LIST OF DATA FILES==============================
 1	Crime & Criminal Tracking Network And Systems
 2	X-38 Fault-Tolerant System Services
 3	The Dallas / Ft. Worth Regional Center-To-Center Communications Network
@@ -9,7 +9,7 @@ In the Java programming language, the proposed approach is implemented. The test
 6 PROMISE 
 7 input_Requirements
 8 Intermediate outcome
-==========================================LIST OF PROCESSING TOOLS===================================================
+==========================================LIST OF PROCESSING TOOLS========================================
 We used following to create the project : 
 1. Netbans (version 8.1) to be available - https://netbeans.org/community/releases/81/ or https://netbeans.org/images_www/v6/download/community/8.2 
 2. WordNetDictionary to be available(version 3.1) - https://wordnet.princeton.edu/download/current-version/
